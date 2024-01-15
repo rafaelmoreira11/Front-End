@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px;
+  font-family: sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.text-logo {
+  font-weight: 550;
+}
+
+.img-logo {
+  width: 22px;
+  margin-right: 5px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 450px;
+}
+
+.nav-itens {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(77, 74, 74);
+}
+
+.entrar {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-cadastrar {
+  cursor: pointer;
+  background-color: rgb(131, 47, 47);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+}
