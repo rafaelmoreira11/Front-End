@@ -1,0 +1,1 @@
+Atualização do arquivo : Criamos um código que compara o valor e tipo de strings e inteiros.
