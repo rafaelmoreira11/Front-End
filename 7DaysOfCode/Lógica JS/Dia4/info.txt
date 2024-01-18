@@ -1,0 +1,1 @@
+Atualização do arquivo : criamos um código que gera números randômicos e tentamos adivinhar.

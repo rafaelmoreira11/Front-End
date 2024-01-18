@@ -1,0 +1,164 @@
+@media (max-widht = 510px) {
+  body {
+    justify-content: space-between;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loki-name {
+  font-size: 60pt;
+  margin-left: 100px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.conteiner {
+  font-family: sans-serif;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  margin-top: 30px;
+}
+
+.cover {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.img-cover {
+  border-radius: 20px;
+  width: 220px;
+  height: 280px;
+}
+
+.desc {
+  width: 760px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.desc-info {
+  padding-bottom: 50px;
+}
+
+.sub-info {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-text {
+  font-size: 16pt;
+  font-family: sans-serif bold;
+  margin-top: 60px;
+  font-weight: 500;
+}
+
+.duracao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempo-text {
+  margin-left: 20px;
+  font-size: 16pt;
+}
+
+.star {
+  padding-right: 10px;
+}
+
+.lancamento {
+  margin-right: 20px;
+}
+
+.ano {
+  font-size: 16pt;
+}
+
+.botoes {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.btn-assistir {
+  background-color: rgb(0, 102, 255);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.btn-trailer {
+  background-color: rgb(31, 28, 28);
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.assistir {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.trailer {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.btn-trailer:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.btn-assistir:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
