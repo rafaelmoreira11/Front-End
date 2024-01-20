@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="img">
+        <img src="./assets/imgs/main-img.svg" alt="main-img" class="main-img" />
+      </div>
+      <div class="form">
+        <form action="cadastro.php" method="post" class="form-conteiner">
+          <div class="textos">
+            <p class="small-text"><strong>Bem-vindo de volta</strong></p>
+            <h1 class="big-text">Faça login na sua conta</h1>
+          </div>
+          <div class="form-content">
+            <label class="form-label"><strong>E-mail</strong></label>
+            <input
+              type="text"
+              name="email"
+              placeholder="exemplo@gmai.com"
+              class="input-form"
+            />
+            <label class="form-label"><strong>Senha</strong></label>
+            <input
+              type="text"
+              name="senha"
+              placeholder="0123456789"
+              class="input-form"
+            />
+          </div>
+          <div class="extras">
+            <input type="radio" class="input-radio" />
+            <label class="extra-text"><strong>Lembre de mim</strong></label>
+            <a href="" class="esqueceu-senha"
+              ><strong>Esqueceu sua senha?</strong></a
+            >
+          </div>
+          <div class="form-botoes">
+            <button class="botao-entrar" type="submit">
+              <strong>Entrar</strong>
+            </button>
+            <a href="#" class="botao-google"
+              ><img
+                src="./assets/imgs/google.svg"
+                alt="icon-google"
+                class="icon-google"
+              />
+              <strong>Ou faça login com o Google</strong></a
+            >
+          </div>
+          <div class="cadastro">
+            <label for=""><strong>Não tem uma conta?</strong></label>
+            <a href="#" class="link-cadastro"><strong>Cadastre-se</strong></a>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

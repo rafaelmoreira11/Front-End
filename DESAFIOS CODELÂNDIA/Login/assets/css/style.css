@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 49.5%;
+  background-color: #f3fff2;
+}
+
+.main-img {
+  width: 350px;
+  height: 400px;
+}
+
+.form {
+  width: 50.5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-conteiner {
+  width: 365px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.big-text {
+  font-size: 18pt;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.input-form {
+  width: 365px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.493);
+  background-color: #f3fff2;
+  padding-left: 20px;
+}
+
+.form-botoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.extras {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-radio {
+  margin-right: 10px;
+}
+.extra-text {
+  margin-right: 50px;
+}
+
+.esqueceu-senha {
+  text-decoration: none;
+  color: #1e9e6a;
+}
+
+.botao-entrar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 365px;
+  height: 50px;
+  font-size: 12pt;
+  background-color: #1e9e6a;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.botao-google {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 365px;
+  height: 50px;
+  font-size: 12pt;
+  background-color: #1a202c;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.icon-google {
+  margin-right: 10px;
+}
+
+.cadastro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.link-cadastro {
+  text-decoration: none;
+  color: #1e9e6a;
+  margin-left: 10px;
+}
+
+.form-label {
+  margin: 8px 0;
+}
