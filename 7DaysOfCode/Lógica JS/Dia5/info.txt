@@ -1,0 +1,1 @@
+Atualização do arquivo : criamos uma lista de compras utilizando arrays e coleções.

@@ -1,0 +1,1 @@
+Atualização do arquivo : adicionamos uma função para excluir os itens da nossa lista.
