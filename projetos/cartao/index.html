@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/media_queries.css" />
+    <title>Cartão</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-content">
+        <div class="card-info">
+          <form action="" method="post" class="form-card">
+            <label for="" class="name-input"
+              ><strong>Número do cartão</strong></label
+            >
+            <input
+              type="text"
+              placeholder="Informe o número do cartão"
+              name="number"
+              id="number"
+              class="input-form"
+            />
+            <label for="" class="name-input"
+              ><strong>Nome do titular</strong></label
+            >
+            <input
+              type="text"
+              placeholder="Informe o nome do titular"
+              name="name"
+              id="name"
+              class="input-form"
+            />
+            <div class="sub-info">
+              <div class="validate">
+                <label for="" class="name-input"
+                  ><strong>Validade</strong></label
+                >
+                <input
+                  type="text"
+                  placeholder="mm / aa"
+                  name="date-validate"
+                  id="date_validate"
+                  class="input-form-validate"
+                />
+              </div>
+              <div class="cvv">
+                <label for="" class="name-input"
+                  ><strong>CVV</strong>
+                  <img
+                    src="./assets/imgs/Question.png"
+                    alt="question-btn"
+                    class="question-icon"
+                /></label>
+                <input
+                  type="number"
+                  placeholder="***"
+                  name="cvv"
+                  id="cvv"
+                  class="input-form-cvv"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="card-image">
+            <div class="card-image-info">
+              <div class="card-image-content">
+                <div class="header-card-image">
+                  <img
+                    src="./assets/imgs/Bandeiras cartão.png"
+                    alt="bandeira-cartão-icon"
+                  />
+                  <img
+                    src="./assets/imgs/ContactlessPayment.png"
+                    alt="aproximação-icon"
+                  />
+                </div>
+                <div class="number-card-image">
+                  <p class="card-number" id="card-number">
+                    **** **** **** ****
+                  </p>
+                </div>
+                <div class="footer-card-image">
+                  <p class="name-user" id="name-user">Seu nome aqui</p>
+                  <p class="date-card" id="date-card">** / **</p>
+                </div>
+              </div>
+            </div>
+            <div class="secure-info">
+              <img
+                src="./assets/imgs/ShieldCheck.png"
+                alt="seguro-icon"
+                class="secure-icon"
+              />
+              <p class="secure-info-text">Seus dados estão seguros</p>
+            </div>
+          </div>
+        </div>
+        <div class="add-card-btn">
+          <button class="btn-add" name="submit" id="btn">
+            <strong>Adicionar cartão</strong>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/scripts/index.js" defer></script>
+  </body>
+</html>
