@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+
+.header-contact {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100%;
+  background-color: #161513;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.main-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.main-text {
+  margin: 40px 0px;
+}
+
+.description {
+  width: 60%;
+  text-align: center;
+}
+
+.buttons {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+#github {
+  color: black;
+  background-color: white;
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px 0px -20px;
+}
+
+#cv {
+  margin-left: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages-experiences {
+  margin-bottom: 40px;
+  color: #c5c5c5;
+}
+
+.lang-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0px 15px 40px 15px;
+}
+
+.projects-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+footer {
+  margin-top: -250px;
+  width: 100%;
+  height: 300px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  width: 80%;
+}
+
+.contact-title {
+  color: white;
+}
+
+.contact-description {
+  width: 80%;
+  color: rgb(170, 168, 168);
+  margin: 20px 0px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.email-icon {
+  margin-right: 10px;
+}
+
+.social-midias {
+  display: flex;
+  align-items: center;
+}
+
+.icon-social-midia {
+  margin-right: 10px;
+}
+
+.projects-link {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px 0 20px 0;
+}
+
+.project {
+  color: white;
+  text-decoration: none;
+  width: 402px;
+}
+
+.project:hover {
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+
+#project1 {
+  margin: 0px 150px 0px 0px;
+}
+
+.image-project {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+}
+
+.text-link {
+  padding: 10px;
+}
+
+.smal-text {
+  font-size: 8pt;
+  font-weight: 600;
+  color: gray;
+}
+
+.text-link-conteiner {
+  border-radius: 0 0 20px 20px;
+  width: 400px;
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2a2a;
+}
+
+.image-link {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

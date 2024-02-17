@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+  header {
+    width: 500px;
+  }
+
+  .main-text {
+    text-align: center;
+  }
+
+  .about-me {
+    margin-left: 60px;
+  }
+
+  .description {
+    width: 300px;
+  }
+
+  .projects-link {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    margin-top: -1px;
+    width: 500px;
+  }
+
+  main {
+    width: 500px;
+  }
+
+  .projects-conteiner {
+    margin-left: 50px;
+    margin-bottom: 60px;
+  }
+
+  #project1 {
+    margin: 0px 0px 80px 0px;
+  }
+
+  #link {
+    margin-left: 70px;
+  }
+
+  #github {
+    margin-left: 30px;
+  }
+
+  .languages {
+    margin-left: 60px;
+  }
+
+  .buttons {
+    margin-left: 20px;
+  }
+
+  .contact {
+    margin-left: 20px;
+  }
+}
