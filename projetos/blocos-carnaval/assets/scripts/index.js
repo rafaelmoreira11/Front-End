@@ -87,6 +87,9 @@ btn.addEventListener("click", () => {
     bloco3.style.display = "none";
     bloco4.style.display = "none";
     bloco5.style.display = "flex";
+    bloco6.style.display = "none";
+    bloco7.style.display = "none";
+    bloco8.style.display = "none";
   } else if (
     input_name_city.value.includes("Enquanto isso") ||
     (input_name_city.value.includes("Sala da Justiça") &&
@@ -97,7 +100,10 @@ btn.addEventListener("click", () => {
     bloco2.style.display = "none";
     bloco3.style.display = "none";
     bloco4.style.display = "none";
-    bloco8.removeAttribute("id");
+    bloco5.style.display = "none";
+    bloco6.style.display = "none";
+    bloco7.style.display = "none";
+    bloco8.style.display = "flex";
   } else if (
     input_name_city.value.includes("olodum") ||
     (input_name_city.value.includes("Olodum") &&
@@ -108,6 +114,10 @@ btn.addEventListener("click", () => {
     bloco2.style.display = "none";
     bloco3.style.display = "flex";
     bloco4.style.display = "none";
+    bloco5.style.display = "none";
+    bloco6.style.display = "none";
+    bloco7.style.display = "none";
+    bloco8.style.display = "none";
   } else if (
     input_name_city.value.includes("Bafo") ||
     (input_name_city.value.includes("Onça") &&
@@ -118,6 +128,10 @@ btn.addEventListener("click", () => {
     bloco2.style.display = "none";
     bloco3.style.display = "none";
     bloco4.style.display = "flex";
+    bloco5.style.display = "none";
+    bloco6.style.display = "none";
+    bloco7.style.display = "none";
+    bloco8.style.display = "none";
   } else if (
     input_name_city.value.includes("Gigantes") ||
     (input_name_city.value.includes("Lira") &&
@@ -128,7 +142,10 @@ btn.addEventListener("click", () => {
     bloco2.style.display = "none";
     bloco3.style.display = "none";
     bloco4.style.display = "none";
-    bloco6.removeAttribute("id");
+    bloco5.style.display = "none";
+    bloco6.style.display = "flex";
+    bloco7.style.display = "none";
+    bloco8.style.display = "none";
   } else if (
     input_name_city.value.includes("Ilê") ||
     (input_name_city.value.includes("Aiyê") &&
@@ -139,7 +156,10 @@ btn.addEventListener("click", () => {
     bloco2.style.display = "none";
     bloco3.style.display = "none";
     bloco4.style.display = "none";
-    bloco7.removeAttribute("id");
+    bloco5.style.display = "none";
+    bloco6.style.display = "none";
+    bloco7.style.display = "flex";
+    bloco8.style.display = "none";
   } else if (
     input_name_city.value == "" &&
     op_select == "Selecione uma cidade"
