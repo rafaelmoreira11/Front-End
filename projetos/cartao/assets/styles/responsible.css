@@ -25,3 +25,47 @@
     border-radius: 10px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  main {
+    width: 360px;
+    height: 120vh;
+  }
+
+  .main-content {
+    width: 360px;
+    height: 120vh;
+  }
+
+  .card-info {
+    flex-direction: column;
+    width: 350px;
+    margin-top: 300px;
+  }
+
+  .card-image {
+    margin-top: -500px;
+    margin-left: 30px;
+  }
+
+  .btn-add {
+    width: 340px;
+    border-radius: 10px;
+  }
+
+  .input-form {
+    width: 300px;
+  }
+
+  .form-card {
+    margin-left: 25px;
+  }
+
+  .input-form-cvv {
+    width: 90px;
+  }
+
+  .input-form-validate {
+    width: 190px;
+  }
+}
